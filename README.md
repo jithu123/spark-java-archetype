@@ -17,6 +17,7 @@ Create a directory for the new project
 
 ```
 mkdir myproject
+cd myproject
 ```
 
 ```

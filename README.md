@@ -1,15 +1,25 @@
 # spark-java-archetype
 
 ## Usage
-
+```
 git clone https://github.com/jithu123/spark-java-archetype.git
-
+```
+```
 cd spark-java-archetype
+```
 
 Install the archetype locally
+```
 mvn install
+```
 
+Create a directory for the new project 
 
+```
+mkdir myproject
+```
+
+```
 mvn archetype:generate -DarchetypeCatalog=local
 [INFO] Scanning for projects...
 [INFO]
@@ -50,7 +60,7 @@ package: com.jit
 [INFO] Parameter: groupId, Value: com.jit
 [INFO] Parameter: artifactId, Value: myproject
 [INFO] Parameter: version, Value: 1.0-SNAPSHOT
-[INFO] Project created from Archetype in dir: /Users/jithendr/mystuff/sparkhacks/newproject/myproject
+[INFO] Project created from Archetype in dir: /Users/myproj/path/newproject/myproject
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -58,4 +68,4 @@ package: com.jit
 [INFO] Finished at: 2018-07-23T14:45:35-07:00
 [INFO] Final Memory: 13M/60M
 [INFO] ------------------------------------------------------------------------
-
+```

@@ -15,23 +15,5 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea/libraries</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory></directory>
-      <includes>
-        <include>sparkjavaarchetype.iml</include>
-      </includes>
-    </fileSet>
   </fileSets>
 </archetype-descriptor>

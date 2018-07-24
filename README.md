@@ -13,12 +13,7 @@ Install the archetype locally
 mvn install
 ```
 
-Create a directory for the new project 
-
-```
-mkdir myproject
-cd myproject
-```
+Create a new project based on the archetype 
 
 ```
 mvn archetype:generate -DarchetypeCatalog=local
@@ -70,3 +65,21 @@ package: com.jit
 [INFO] Final Memory: 13M/60M
 [INFO] ------------------------------------------------------------------------
 ```
+
+Change directory to the project directory
+
+```
+cd myproject
+```
+
+```
+mvn install
+```
+
+Execute the generated jar using spark submit
+
+```
+spark-submit --master local --class com.jit.group.App target/myproject-1.0-SNAPSHOT.jar
+```
+
+SUCCESS!!! Enjoy your new spark project
